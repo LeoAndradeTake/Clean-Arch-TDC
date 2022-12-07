@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchTDC.Application\CleanArchTDC.Application.csproj" />
+    <ProjectReference Include="..\CleanArchTDC.Domain\CleanArchTDC.Domain.csproj" />
+    <ProjectReference Include="..\CleanArchTDC.Infra.Data\CleanArchTDC.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
